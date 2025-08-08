@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>VivaDecor | Interior Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg mb-9">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+				<ul class="navbar-nav gap-4">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Home</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+					<li class="nav-item"><a class="nav-link" href="#footer">Support</a></li>
+				</ul>
+			</div>
+			<button class="btn btn-dark">Sign Up</button>
+		</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<section class="hero-section container d-flex flex-wrap align-items-center">
+		<div class="col-md-6">
+			<h1 class="hero-title">Interior Design</h1>
+			<p class="hero-text">
+				Step into a world where the art of Interior Design is meticulously
+				crafted to bring together timeless elegance and cutting-edge modern
+				Innovation, Allowing you to transform your living spaces into the
+				epitome of luxury and sophistication
+			</p>
+			<button class="btn btn-dark">Start Project</button>
+
+			<div class="row stats gx-0">
+				<div class="col-4 text-center">
+					<div class="stat-number">400+</div>
+					<p>Project Complete</p>
+				</div>
+				<div class="col-4 text-center">
+					<div class="stat-number">600+</div>
+					<p>Satisfied Clients</p>
+				</div>
+				<div class="col-4 text-center">
+					<div class="stat-number">100+</div>
+					<p>Unique Styles</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 hero-images mt-5 mt-md-0">
+			<img src="images/img1.png" alt="Room Design 1" />
+			<div class="img-wrapper">
+				<img src="images/border.svg" alt="Background Design" class="img-border" />
+				<img src="images/img2.png" alt="Room Design 2" />
+			</div>
+		</div>
+		<a href="#footer" class="scroll-arrow">
+			<i class="bi bi-arrow-down"></i>
+		</a>
+	</section>
+	<!-- Services Section -->
+	<section id="services" class="services py-5 d-flex flex-wrap align-items-center justify-content-between">
+		<div class="container">
+			<div class="section-title-wrapper">
+				<hr class="flex-grow-1 me-3">
+				<h2 class="mb-0">Our Services</h2>
+			</div>
+
+			<div class="row g-4 text-start">
+				<div class="col-md-4 mb-4">
+					<div class="service-item">
+						<img src="images/icon1.png" alt="Lighting icon">
+						<div class="service-text">
+							<h5>Lighting Design</h5>
+							<p>Achieve the perfect balance of ambient, task, and accent lighting for a functional
+								atmosphere</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 mb-4">
+					<div class="service-item">
+						<img src="images/icon2.png" alt="Interior icon" class="mb-3">
+						<div class="service-text">
+							<h5>Interior Design</h5>
+							<p>From concept to completion, we oversee every detail to bring your vision to life
+								efficiently
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<div class="service-item">
+						<img src="images/icon3.png" alt="Outdoor icon" class="mb-3">
+						<div class="service-text">
+							<h5>Outdoor Design</h5>
+							<p>Celebrate the changing seasons with our seasonal outdoor decor services</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Dream Section -->
+	<section class="dream-section container py-5 d-flex flex-wrap align-items-center justify-content-between">
+		<div class="col-lg-6 mb-4 mb-lg-0">
+			<img src="images/img3.png" alt="Living Room Design" class="img-fluid rounded shadow">
+		</div>
+		<div class="col-lg-5">
+			<h2 class="mb-3">Designing Your Dream<br>With Brilliance</h2>
+			<p class="mb-4">
+				Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations,
+				crafted with precision and brilliance for an unforgettable living experience
+			</p>
+
+			<div class="accordion mb-4" id="designAccordion">
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingOne">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseOne">
+							Living Room Interior Design
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#designAccordion">
+						<div class="accordion-body">
+							Experience cozy and elegant living spaces tailored to your taste.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo">
+							Commercial Office Room Interior Design
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#designAccordion">
+						<div class="accordion-body">
+							Professional yet inspiring work environments to enhance productivity.
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<button class="btn btn-dark">Learn More</button>
+		</div>
+	</section>
+	<!-- Steps Section -->
+	<section class="steps-section container py-5 d-flex flex-wrap align-items-center justify-content-between">
+		<div class="col-lg-6 mb-5 mb-lg-0">
+			<h2 class="mb-5">Designing Your Dream in Three Simple Steps</h2>
+
+			<div class="step d-flex mb-5">
+				<div class="step-icon me-4">
+					<img src="images/step1.png" alt="Start Project">
+				</div>
+				<div class="step-text">
+					<h5 class="fw-bold">Start Project</h5>
+					<p>Embark on your design adventure by initiating your project. Share your vision and set the stage
+						for a bespoke design experience</p>
+				</div>
+			</div>
+
+			<div class="step d-flex mb-5">
+				<div class="step-icon me-4">
+					<img src="images/step2.png" alt="Craft">
+				</div>
+				<div class="step-text">
+					<h5 class="fw-bold">Craft</h5>
+					<p>Collaborate closely to achieve design excellence refining your vision and crafting brilliance
+						into every aspect of your space</p>
+				</div>
+			</div>
+
+			<div class="step d-flex">
+				<div class="step-icon me-4">
+					<img src="images/step3.png" alt="Execute">
+				</div>
+				<div class="step-text">
+					<h5 class="fw-bold">Execute</h5>
+					<p>Witness your vision becoming a reality as we execute the design plan with precision. Celebrate
+						the joy of your newly transformed space</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-5">
+			<img src="images/img4.png" alt="Interior Room" class="img-fluid rounded shadow">
+		</div>
+	</section>
+	<!-- Testimonials Section -->
+	<section class="testimonials-section py-5">
+		<div class="container">
+			<div class="row align-items-center position-relative">
+				<!-- Image on the left -->
+				<div class="col-lg-5 mb-5">
+					<img src="images/img5.png" alt="Modern Interior" class="img-fluid interior-image">
+				</div>
+
+				<!-- Testimonials Content -->
+				<div class="col-lg-7">
+					<h2 class="mb-4">What Our Customers<br>Say About Us</h2>
+
+					<div class="testimonial-wrapper row g-4">
+						<!-- Testimonial 1 -->
+						<div class="col-md-6">
+							<div class="testimonial-card p-4">
+								<div class="quote-icon">❝</div>
+								<p>
+									Working with your design team was an absolute pleasure. The attention to detail and
+									creativity exceeded my expectations. Thank you for making my home beautiful!
+								</p>
+								<div class="customer-info">
+									<img src="images/avatar1.png" alt="Sophie Carter" class="me-3">
+									<div>
+										<h6>Sophie Carter</h6>
+										<small>New York, USA</small>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Testimonial 2 -->
+						<div class="col-md-6">
+							<div class="testimonial-card p-4">
+								<div class="quote-icon">❝</div>
+								<p>
+									Exceptional service! From the initial consultation to the final reveal, your team
+									demonstrated professionalism and a keen eye for design. Highly recommend!
+								</p>
+								<div class="customer-info">
+									<img src="images/avatar2.png" alt="James Bennett" class="me-3">
+									<div>
+										<h6>James Bennett</h6>
+										<small>Toronto, Canada</small>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<!-- Navigation Arrows -->
+						<div class="nav-testimonials d-flex gap-2">
+							<button class="btn" type="button">
+								<i class="bi bi-arrow-left"></i>
+							</button>
+							<button class="btn" type="button">
+								<i class="bi bi-arrow-right"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<!-- Newsletter Section -->
+	<section class="newsletter text-center">
+		<div class="container">
+			<h2 class="mb-3">Subscribe to Our Newsletter<br>for Design Insights</h2>
+			<p class="mb-4">Be the first to discover trends, inspirations, and special offers as we bring the world of
+				design directly to your inbox</p>
+		</div>
+	</section>
+
+	<!-- Newsletter Form -->
+	<div class="newsletter-container">
+		<form class="newsletter-form">
+			<div class="input-group">
+				<span class="input-group-text bg-white border-end-0">
+					<i class="fas fa-envelope text-secondary"></i>
+				</span>
+				<input type="email" class="form-control border-start-0 custom-input"
+					placeholder="Enter your email address" required>
+				<button class="btn btn-dark" type="submit">Subscribe</button>
+			</div>
+		</form>
+	</div>
+
+
+
+	<!-- Footer Section -->
+	<footer id="footer" class="footer bg-dark text-white py-6">
+		<div class="container">
+			<div class="row gy-4">
+
+				<!-- Logo + Social -->
+				<div class="col-md-3">
+					<img src="images/logo2.png" alt="VivaDecor Logo" class="mb-3" style="max-width: 150px;">
+					<p>VivaDecor your premier destination for luxury and modern interior design</p>
+					<div class="social-icons d-flex gap-3">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+
+				<!-- Services Column -->
+				<div class="col-md-3">
+					<h5>Our Services</h5>
+					<ul class="list-unstyled">
+						<li><a href="#" class="footer-link">Interior design</a></li>
+						<li><a href="#" class="footer-link">Outdoor design</a></li>
+						<li><a href="#" class="footer-link">Lightning design</a></li>
+						<li><a href="#" class="footer-link">Office design</a></li>
+					</ul>
+				</div>
+
+				<!-- Info Column -->
+				<div class="col-md-3">
+					<h5>Information</h5>
+					<ul class="list-unstyled">
+						<li><a href="#" class="footer-link">Reviews</a></li>
+						<li><a href="#" class="footer-link">Careers</a></li>
+						<li><a href="#" class="footer-link">Pricing</a></li>
+						<li><a href="#" class="footer-link">Press inquiries</a></li>
+					</ul>
+				</div>
+
+				<!-- Contact Column -->
+				<div class="col-md-3">
+					<h5>Contact</h5>
+					<ul class="list-unstyled">
+						<li><a href="mailto:info@vivadecor.com" class="footer-link">info@vivadecor.com</a></li>
+						<li><a href="#" class="footer-link">Design Avenue, Cityville<br>CA 90210 United States</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
