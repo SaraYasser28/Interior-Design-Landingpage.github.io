@@ -145,7 +145,7 @@
 
 .scroll-arrow {
 	position: absolute;
-	bottom: -187px;
+	bottom: -220px;
 	right: 80px;
 	background-color: #1f1f1f;
 	width: 151px;
@@ -812,4 +812,5 @@ ul li {
 	body {
 		font-size: 16px;
 	}
+
 }
